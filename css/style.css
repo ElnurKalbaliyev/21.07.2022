@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* Btn stles start */
+.btn {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-w {
+    background-color: #571F9C;
+    border: #571F9C;
+}
+
+.btn-w :hover {
+    background-color: #571F9C;
+    color: #fff;
+}
+
+/* Btn stles end */
+/* Navbar start */
+
+header .header-top {
+    background-color: #571F9C;
+    color: #fff;
+}
+
+
+header .header-top .header-top-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+header .header-top .header-top-item .right ul {
+    display: flex;
+}
+
+header .header-top .header-top-item .right ul li {
+    list-style: none;
+}
+
+header .header-top .header-top-item .right ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+header .header-botton .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .header-botton .navbar .logo img {
+    width: 195px;
+    height: 55px;
+}
+
+header .header-botton .navbar .nav-items ul {
+    display: flex;
+}
+
+header .header-botton .navbar .nav-items ul li {
+    list-style: none;
+}
+
+
+header .header-botton .navbar .nav-items ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+/* Navbar end */
+
+
+/* Banner start */
+.banner {
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.banner .banner-info {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner .banner-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.banner .banner-info h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner .banner-info h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Banner end */
+
+/* Business start */
+.business{   
+    background-color: #EDF5F8;
+    margin-bottom: 70px;
+}
+.best-agency{
+    display: flex;
+    justify-content: space-between;
+}
+.best-agency button{
+    background-color: #571F9C;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.best-agency img{
+    width: 75px;
+    height: 75px;
+    margin: 10px 50px;
+  
+}
+.best-agency h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.best-agency p{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.best-business{
+   padding: 80px 0;
+   width: 20%;
+   
+}
+.business .best-agency .content{
+   width: 20%;
+   padding: 90px 0;     
+}
+
+.business .best-agency .nails{
+    width: 20%;
+    padding: 90px 0;
+}
+.business .best-agency .visitor{
+    width: 20%;
+    padding: 90px 0;
+}
+
+/* Business end */
+
+/* Section 2 start */
+
+.hire-us{
+    text-align: center;   
+}
+.hire-us p{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #868686;
+    margin-bottom: 20px;
+    width: 810px;
+    line-height: 28px;
+    
+}
+.hire-us h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.like-btn{
+   display: inline-block;
+   margin: 0 48%;
+   width: 50px;
+   height: 50px;
+   background-color: #E0E0E0;
+   border-radius: 100%;
+   cursor: pointer;
+}
+.hire-us-btn{
+    display: inline-block;
+    margin: 200px 41.5% 0 41.5%;
+}
+.hire-us-btn button{
+    padding: 10px 30px;
+    font-size: 40px;
+    background: none;
+    border: 4px solid #571F9C;
+    color: #571F9C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700; 
+    cursor: pointer;
+}
+
+.like-btn:hover{
+    background: #571F9C;
+    color: #fff;
+}
+.hire-us-btn button:hover{
+    background-color: #571F9C;
+    color: #fff;
+    border-color: #571F9C;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Section 2 end */
+
+.middle{
+    text-align: center;
+}
+.middle p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1.6px;
+    padding: 50px 0 20px 0;
+}
+.middle h2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.middle-box{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 50px;
+}
+.middle-box .icon1{
+    width: 33.333%;
+    height: 395px;
+    border-right:1px solid #ECECEC;
+    padding: 50px;
+  
+}
+.middle-box .icon2{
+    width: 33.333%;
+    height: 395px;
+    border-right:1px solid #ECECEC;
+    padding: 50px 50px 60px 50px;
+}
+.middle-box .icon3{
+    width: 33.333%;
+    height: 395px;
+    padding: 50px 50px 60px 50px;
+}
+.middle-box .icon4{
+    width: 33.333%;
+    height: 395px;
+    border-right:1px solid #ECECEC;
+    border-top: 1px solid #ECECEC;
+    padding: 50px 50px 60px 50px;
+}
+.middle-box .icon5{
+    width: 33.333%;
+    height: 395px;
+    border-right:1px solid #ECECEC;
+    border-top: 1px solid #ECECEC;
+    padding: 50px 50px 60px 50px;
+}
+.middle-box .icon6{
+    width: 33.333%;
+    height: 395px;
+    border-top:1px solid #ECECEC;
+    padding: 50px 50px 60px 50px;
+    
+}
+.middle-box img{
+    width: 104px;
+    height: 104px;
+}
+.middle-box h1{
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 36px;
+    font-weight: normal;
+}
+.middle-box p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #8F8F8F;
+    line-height: 28px;
+}
+.middle-box strong{
+    font-weight: bold;
+}
